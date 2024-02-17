@@ -3,6 +3,7 @@
 ## Additional information
 
 OSI Model - 7 Layers
+
 All => Application layer
 People => Presentation layer
 Seem => Session layer
