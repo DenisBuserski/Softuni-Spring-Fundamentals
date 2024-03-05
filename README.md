@@ -11,3 +11,5 @@ To => Transport layer
 Need => Network layer
 Data => Data link layer
 Processing => Physical layer
+
+https://www.w3schools.com/tags/ref_httpmethods.asp
