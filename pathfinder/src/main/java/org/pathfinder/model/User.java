@@ -1,8 +1,7 @@
 package org.pathfinder.model;
 
 import jakarta.persistence.*;
-import org.pathfinder.model.enums.UserLevel;
-
+import org.pathfinder.model.enums.Level;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -28,10 +27,12 @@ public class User {
     private int age;
 
     @ManyToMany(fetch = FetchType.EAGER)
+    @Column(unique = true)
     private Set<Role> roles;
 
     @Enumerated(value = EnumType.STRING)
-    private UserLevel level;
+    private Level level;
+
 
     public User() {
         this.roles = new HashSet<>();
@@ -93,11 +94,11 @@ public class User {
         this.roles = roles;
     }
 
-    public UserLevel getLevel() {
+    public Level getLevel() {
         return level;
     }
 
-    public void setLevel(UserLevel level) {
+    public void setLevel(Level level) {
         this.level = level;
     }
 
