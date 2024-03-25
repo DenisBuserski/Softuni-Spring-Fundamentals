@@ -76,6 +76,7 @@
 
 
 - OSI Model(Open System Interconnect) - 7 Layers
+  - [OSI model](https://media.licdn.com/dms/image/D5622AQHDwsZj4ka0dQ/feedshare-shrink_800/0/1711291486209?e=1714003200&v=beta&t=sEY2zAMXxUuOyGwY3bQIEljUFhHQYbaN-j4qTisMkQ0)
   - All => Application layer 
   - People => Presentation layer 
   - Seem => Session layer 
